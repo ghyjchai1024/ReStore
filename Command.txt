@@ -19,3 +19,4 @@ npm install @mui/material @emotion/react @emotion/styled
   href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
 /> index.html
 npm install @mui/icons-material
+npm install react-router-dom@5.3.0 @types/react-router-dom@5.3.2

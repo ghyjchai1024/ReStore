@@ -51,11 +51,12 @@ namespace API
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "WebAPIv5 v1"));
             }
 
-            app.UseHttpsRedirection();
+            //app.UseHttpsRedirection();
 
             app.UseRouting();
             app.UseCors(opt =>
             {
+                //opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
                 opt.AllowAnyHeader().AllowAnyMethod().WithOrigins("http://localhost:3000");
             });
             
