@@ -10,3 +10,12 @@ dotnet tool install --global dotnet-ef --version 5.0.8
 
 dotnet ef migrations add InitialCreate -o Data/Migrations
 dotnet ef database update
+
+client
+npx create-react-app client --template typescript --use-npm
+npm install @mui/material @emotion/react @emotion/styled
+<link
+  rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+/> index.html
+npm install @mui/icons-material
